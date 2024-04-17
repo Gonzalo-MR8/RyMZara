@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		9B7A9DF22BCFDDB7008CB4FB /* RyMZaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9DF12BCFDDB7008CB4FB /* RyMZaraApp.swift */; };
-		9B7A9DF42BCFDDB7008CB4FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9DF32BCFDDB7008CB4FB /* ContentView.swift */; };
 		9B7A9DF62BCFDDB8008CB4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A9DF52BCFDDB8008CB4FB /* Assets.xcassets */; };
 		9B7A9DF92BCFDDB8008CB4FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A9DF82BCFDDB8008CB4FB /* Preview Assets.xcassets */; };
+		9B7A9E282BCFDE56008CB4FB /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E0E2BCFDE56008CB4FB /* EndPoint.swift */; };
+		9B7A9E292BCFDE56008CB4FB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E0F2BCFDE56008CB4FB /* NetworkClient.swift */; };
+		9B7A9E2A2BCFDE56008CB4FB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E102BCFDE56008CB4FB /* NetworkManager.swift */; };
+		9B7A9E2B2BCFDE56008CB4FB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E112BCFDE56008CB4FB /* Reachability.swift */; };
+		9B7A9E372BCFDEEA008CB4FB /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E362BCFDEEA008CB4FB /* CachedAsyncImage.swift */; };
+		9B7A9E3B2BCFE129008CB4FB /* RyMEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E3A2BCFE129008CB4FB /* RyMEndPoint.swift */; };
+		9B7A9E3D2BCFE135008CB4FB /* RyMServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E3C2BCFE135008CB4FB /* RyMServices.swift */; };
+		9B7A9E3F2BCFE14E008CB4FB /* RyMModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E3E2BCFE14E008CB4FB /* RyMModels.swift */; };
+		9B7A9E422BCFE216008CB4FB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E412BCFE216008CB4FB /* DashboardView.swift */; };
+		9B7A9E462BCFE24C008CB4FB /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E452BCFE24C008CB4FB /* DashboardViewModel.swift */; };
+		9B7A9E492BCFE4F4008CB4FB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A9E482BCFE4F4008CB4FB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B7A9DEE2BCFDDB7008CB4FB /* RyMZara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyMZara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7A9DF12BCFDDB7008CB4FB /* RyMZaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyMZaraApp.swift; sourceTree = "<group>"; };
-		9B7A9DF32BCFDDB7008CB4FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B7A9DF52BCFDDB8008CB4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7A9DF82BCFDDB8008CB4FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B7A9E0E2BCFDE56008CB4FB /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		9B7A9E0F2BCFDE56008CB4FB /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		9B7A9E102BCFDE56008CB4FB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9B7A9E112BCFDE56008CB4FB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9B7A9E362BCFDEEA008CB4FB /* CachedAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		9B7A9E3A2BCFE129008CB4FB /* RyMEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyMEndPoint.swift; sourceTree = "<group>"; };
+		9B7A9E3C2BCFE135008CB4FB /* RyMServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyMServices.swift; sourceTree = "<group>"; };
+		9B7A9E3E2BCFE14E008CB4FB /* RyMModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyMModels.swift; sourceTree = "<group>"; };
+		9B7A9E412BCFE216008CB4FB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9B7A9E452BCFE24C008CB4FB /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		9B7A9E482BCFE4F4008CB4FB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,11 @@
 		9B7A9DF02BCFDDB7008CB4FB /* RyMZara */ = {
 			isa = PBXGroup;
 			children = (
-				9B7A9DF12BCFDDB7008CB4FB /* RyMZaraApp.swift */,
-				9B7A9DF32BCFDDB7008CB4FB /* ContentView.swift */,
+				9B7A9E332BCFDE65008CB4FB /* Base */,
+				9B7A9E202BCFDE56008CB4FB /* Model */,
+				9B7A9E152BCFDE56008CB4FB /* Provider */,
+				9B7A9E1C2BCFDE56008CB4FB /* UseCases */,
+				9B7A9E352BCFDEC9008CB4FB /* Util */,
 				9B7A9DF52BCFDDB8008CB4FB /* Assets.xcassets */,
 				9B7A9DF72BCFDDB8008CB4FB /* Preview Content */,
 			);
@@ -65,6 +88,93 @@
 				9B7A9DF82BCFDDB8008CB4FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B7A9E0D2BCFDE56008CB4FB /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E3A2BCFE129008CB4FB /* RyMEndPoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		9B7A9E122BCFDE56008CB4FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E0E2BCFDE56008CB4FB /* EndPoint.swift */,
+				9B7A9E0F2BCFDE56008CB4FB /* NetworkClient.swift */,
+				9B7A9E102BCFDE56008CB4FB /* NetworkManager.swift */,
+				9B7A9E112BCFDE56008CB4FB /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9B7A9E142BCFDE56008CB4FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E3C2BCFE135008CB4FB /* RyMServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B7A9E152BCFDE56008CB4FB /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E0D2BCFDE56008CB4FB /* EndPoints */,
+				9B7A9E122BCFDE56008CB4FB /* Network */,
+				9B7A9E142BCFDE56008CB4FB /* Services */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		9B7A9E1C2BCFDE56008CB4FB /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E402BCFE201008CB4FB /* Dashboard */,
+				9B7A9E472BCFE47C008CB4FB /* DetailView */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		9B7A9E202BCFDE56008CB4FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E3E2BCFE14E008CB4FB /* RyMModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B7A9E332BCFDE65008CB4FB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9DF12BCFDDB7008CB4FB /* RyMZaraApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9B7A9E352BCFDEC9008CB4FB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E362BCFDEEA008CB4FB /* CachedAsyncImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9B7A9E402BCFE201008CB4FB /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E412BCFE216008CB4FB /* DashboardView.swift */,
+				9B7A9E452BCFE24C008CB4FB /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		9B7A9E472BCFE47C008CB4FB /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A9E482BCFE4F4008CB4FB /* DetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7A9DF42BCFDDB7008CB4FB /* ContentView.swift in Sources */,
+				9B7A9E3D2BCFE135008CB4FB /* RyMServices.swift in Sources */,
+				9B7A9E492BCFE4F4008CB4FB /* DetailView.swift in Sources */,
+				9B7A9E3F2BCFE14E008CB4FB /* RyMModels.swift in Sources */,
 				9B7A9DF22BCFDDB7008CB4FB /* RyMZaraApp.swift in Sources */,
+				9B7A9E2A2BCFDE56008CB4FB /* NetworkManager.swift in Sources */,
+				9B7A9E462BCFE24C008CB4FB /* DashboardViewModel.swift in Sources */,
+				9B7A9E372BCFDEEA008CB4FB /* CachedAsyncImage.swift in Sources */,
+				9B7A9E3B2BCFE129008CB4FB /* RyMEndPoint.swift in Sources */,
+				9B7A9E282BCFDE56008CB4FB /* EndPoint.swift in Sources */,
+				9B7A9E422BCFE216008CB4FB /* DashboardView.swift in Sources */,
+				9B7A9E292BCFDE56008CB4FB /* NetworkClient.swift in Sources */,
+				9B7A9E2B2BCFDE56008CB4FB /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
